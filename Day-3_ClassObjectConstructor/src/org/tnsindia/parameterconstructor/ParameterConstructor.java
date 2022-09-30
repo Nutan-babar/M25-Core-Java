@@ -1,6 +1,6 @@
-package org.tnsindia.defaultconstru;
+package org.tnsindia.parameterconstructor;
 
-//class definition
+
 class Car
 {
 	//variable
@@ -12,21 +12,22 @@ class Car
 	}
 	//default constructor
 	//Constructor is used to initialize the value of the variables
-	Car()
+	Car(int a)
 	{
-//		speed=50;
+      speed=a;
 	}
 }
 
-public class DefaultConstructor {
+public class ParameterConstructor {
 
 	public static void main(String[] args) {
 		
 		//object creation
-				Car obj=new Car();
-				//obj.speed=50;
-				//calling the method of car class
-				obj.display();
+		Car obj=new Car(100);
+		//obj.speed=50;
+		//calling the method of car class
+		obj.display();
+
 
 	}
 
