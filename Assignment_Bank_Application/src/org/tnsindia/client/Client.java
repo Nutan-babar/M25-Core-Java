@@ -10,12 +10,12 @@ import org.tnsindia.framework.SavingAcc;
 
 public class Client {
 
-	@SuppressWarnings("unused")
+
 	public static void main(String[] args) {
 		
-		BankFactory b=new MMBankFactory<Object>();
-		SavingAcc s=new MMSavingAcc1(63581,"Mayur ahire", 20000, true);
-		CurrentAcc1 c=new MMCurrentAcc(859682, "shubham patil", 20000, 1000);
+		BankFactory b=new MMBankFactory();
+		SavingAcc s=new MMSavingAcc1(63581,"Nutan Babar", 40000, true);
+		CurrentAcc1 c=new MMCurrentAcc(859682, "Shiwani Mam", 60000, 2000);
 		System.out.println();
 		System.out.println("Saving Account is : "); 
 		s.withdraw(s.getAccBal());

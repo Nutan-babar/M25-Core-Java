@@ -4,7 +4,7 @@ import org.tnsindia.framework.BankFactory;
 import org.tnsindia.framework.CurrentAcc1;
 import org.tnsindia.framework.SavingAcc;
 
-public class MMBankFactory<MMSavingAcc> extends BankFactory
+public class MMBankFactory extends BankFactory
 {
 
 	public SavingAcc getNewSavingAccount(int accNo, String accNm, float accBal, boolean isSalaried) {

@@ -6,6 +6,7 @@ public abstract class BankAcc
 	private String accNm;
 	private float accBal;
 	
+
 	public BankAcc(int accNo,String accNm,float accBal) 
 	{
 		super();
